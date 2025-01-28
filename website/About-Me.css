@@ -1,0 +1,133 @@
+* {
+    font-family: sans-serif;
+  }
+  
+  #const {
+    background-color: rgba(232, 236, 240, 0.945);
+    padding: 10px;
+  }
+  
+  /* Navigation bar styles */
+  nav {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #2e2c2c;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(232, 236, 240, 0.945);
+  }
+  
+  /* Header styles */
+  header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    padding: 20px 5px 20px 5px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    width: 500px;
+  }
+  
+  hr {
+    color: #2e2c2c;
+    stroke-opacity: calc(block);
+  }
+  
+  /* Section styles */
+  
+  #about {
+    width: 1000px;
+    margin: 30px auto;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h3 {
+    text-align: center;
+    color: rgb(51, 51, 51);
+    margin-bottom: 80px;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  
+  #about h4 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  #about p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  #back {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #back a {
+    background-color: rgb(148, 157, 172);
+    padding: 10px;
+    color: rgb(248, 249, 252);
+    border: solid rgb(75, 68, 61);
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  #back a:hover {
+    color: #161515;
+  }
+  
+  footer {
+    background-color: rgb(148, 157, 172);
+    color: #f8f9fc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    width: inherit;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer a {
+    color: rgb(19, 17, 17);
+    font-size: 15px;
+    text-decoration: none;
+    padding: 2px;
+  }
+  
+  footer a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
