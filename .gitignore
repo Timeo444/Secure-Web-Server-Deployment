@@ -1,0 +1,6 @@
+# Ignore system-specific and sensitive files
+*.log
+*.env
+/var/www/html/*
+/etc/apache2/*
+
